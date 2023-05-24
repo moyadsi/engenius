@@ -1,0 +1,53 @@
+/* App.css */
+
+
+
+/* Estilos para el contenedor principal */
+.App {
+
+    
+    margin: 20px; 
+    background: rgb(248, 248, 245);
+  }
+
+  /* Estilos para los botones */
+  .btn {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: rgb(124, 162, 209);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-outline-primary {
+    background-color: transparent;
+    border: 1px solid #007bff;
+    color: #007bff;
+  }
+  
+  /* Estilos para las tablas */
+  table {
+    width: 100%;
+    margin-bottom: 16px;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+.table td {
+  padding: 8px;
+  border: 1px solid #dee2e6;
+  color: black;
+  width: 40px; 
+}
+  
+  .table th {
+    background-color: #007bff;
+    color: rgb(7, 0, 0);
+    font-weight: bold;
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 123, 255, 0.1);
+  }
+  
